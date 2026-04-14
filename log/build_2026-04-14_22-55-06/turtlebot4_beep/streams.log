@@ -1,0 +1,26 @@
+[1.127s] Invoking command in '/home/soli/d_1_ws/build/turtlebot4_beep': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/soli/d_1_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soli/d_1_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/soli/d_1_ws/build/turtlebot4_beep/build --no-deps symlink_data
+[1.562s] running develop
+[2.124s] running egg_info
+[2.124s] creating turtlebot4_beep.egg-info
+[2.124s] writing turtlebot4_beep.egg-info/PKG-INFO
+[2.124s] writing dependency_links to turtlebot4_beep.egg-info/dependency_links.txt
+[2.125s] writing entry points to turtlebot4_beep.egg-info/entry_points.txt
+[2.125s] writing requirements to turtlebot4_beep.egg-info/requires.txt
+[2.125s] writing top-level names to turtlebot4_beep.egg-info/top_level.txt
+[2.125s] writing manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+[2.129s] reading manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+[2.130s] writing manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+[2.132s] running build_ext
+[2.132s] Creating /home/soli/d_1_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4-beep.egg-link (link to .)
+[2.134s] Installing beep_node script to /home/soli/d_1_ws/install/turtlebot4_beep/lib/turtlebot4_beep
+[2.134s] 
+[2.134s] Installed /home/soli/d_1_ws/build/turtlebot4_beep
+[2.134s] running symlink_data
+[2.135s] creating /home/soli/d_1_ws/install/turtlebot4_beep/share/ament_index
+[2.135s] creating /home/soli/d_1_ws/install/turtlebot4_beep/share/ament_index/resource_index
+[2.135s] creating /home/soli/d_1_ws/install/turtlebot4_beep/share/ament_index/resource_index/packages
+[2.135s] symbolically linking /home/soli/d_1_ws/build/turtlebot4_beep/resource/turtlebot4_beep -> /home/soli/d_1_ws/install/turtlebot4_beep/share/ament_index/resource_index/packages
+[2.136s] symbolically linking /home/soli/d_1_ws/build/turtlebot4_beep/package.xml -> /home/soli/d_1_ws/install/turtlebot4_beep/share/turtlebot4_beep
+[2.136s] creating /home/soli/d_1_ws/install/turtlebot4_beep/share/turtlebot4_beep/launch
+[2.136s] symbolically linking /home/soli/d_1_ws/build/turtlebot4_beep/launch/beep_launch.py -> /home/soli/d_1_ws/install/turtlebot4_beep/share/turtlebot4_beep/launch
+[2.170s] Invoked command in '/home/soli/d_1_ws/build/turtlebot4_beep' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/soli/d_1_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soli/d_1_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/soli/d_1_ws/build/turtlebot4_beep/build --no-deps symlink_data

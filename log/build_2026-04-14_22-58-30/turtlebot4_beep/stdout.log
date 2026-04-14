@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing turtlebot4_beep.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_beep.egg-info/dependency_links.txt
+writing entry points to turtlebot4_beep.egg-info/entry_points.txt
+writing requirements to turtlebot4_beep.egg-info/requires.txt
+writing top-level names to turtlebot4_beep.egg-info/top_level.txt
+reading manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/soli/d_1_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4-beep.egg-link (link to .)
+Installing beep_node script to /home/soli/d_1_ws/install/turtlebot4_beep/lib/turtlebot4_beep
+
+Installed /home/soli/d_1_ws/build/turtlebot4_beep
+running symlink_data

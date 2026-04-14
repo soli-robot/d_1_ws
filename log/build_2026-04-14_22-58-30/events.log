@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (turtlebot4_beep) JobQueued: {'identifier': 'turtlebot4_beep', 'dependencies': OrderedDict()}
+[0.000374] (turtlebot4_beep) JobStarted: {'identifier': 'turtlebot4_beep'}
+[0.098875] (-) TimerEvent: {}
+[0.199136] (-) TimerEvent: {}
+[0.299488] (-) TimerEvent: {}
+[0.399779] (-) TimerEvent: {}
+[0.500062] (-) TimerEvent: {}
+[0.600518] (-) TimerEvent: {}
+[0.700897] (-) TimerEvent: {}
+[0.801250] (-) TimerEvent: {}
+[0.901632] (-) TimerEvent: {}
+[1.001992] (-) TimerEvent: {}
+[1.100231] (turtlebot4_beep) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/soli/d_1_ws/build/turtlebot4_beep/build', '--no-deps', 'symlink_data'], 'cwd': '/home/soli/d_1_ws/build/turtlebot4_beep', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'soli', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/soli', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/soli', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1449', 'SYSTEMD_EXEC_PID': '1613', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/soli/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6643', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'soli', 'JOURNAL_STREAM': '8:16494', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'soli', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models/models:/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/soli/miniconda3/bin:/home/soli/miniconda3/condabin:/opt/ros/humble/bin:/home/soli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/soli/.local/bin:/usr/local/mysql/bin', 'SESSION_MANAGER': 'local/soli:@/tmp/.ICE-unix/1584,unix/soli:/tmp/.ICE-unix/1584', 'INVOCATION_ID': 'b43a12ee8d154435abcae5940df30713', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TZGCN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/soli/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:fa9b8edd-157f-4585-945e-635c55e309eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/soli/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/soli/d_1_ws/build/turtlebot4_beep', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/soli/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/soli/d_1_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soli/d_1_ws/install/turtlebot4_beep/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/soli/ros2_ws/install/dsr_common2/lib/dsr_common2/imp', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/soli/miniconda3', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.114150] (-) TimerEvent: {}
+[1.215400] (-) TimerEvent: {}
+[1.315700] (-) TimerEvent: {}
+[1.416011] (-) TimerEvent: {}
+[1.516299] (-) TimerEvent: {}
+[1.566860] (turtlebot4_beep) StdoutLine: {'line': b'running develop\n'}
+[1.616407] (-) TimerEvent: {}
+[1.716692] (-) TimerEvent: {}
+[1.817001] (-) TimerEvent: {}
+[1.898586] (turtlebot4_beep) StdoutLine: {'line': b'running egg_info\n'}
+[1.898927] (turtlebot4_beep) StdoutLine: {'line': b'writing turtlebot4_beep.egg-info/PKG-INFO\n'}
+[1.899280] (turtlebot4_beep) StdoutLine: {'line': b'writing dependency_links to turtlebot4_beep.egg-info/dependency_links.txt\n'}
+[1.899573] (turtlebot4_beep) StdoutLine: {'line': b'writing entry points to turtlebot4_beep.egg-info/entry_points.txt\n'}
+[1.899815] (turtlebot4_beep) StdoutLine: {'line': b'writing requirements to turtlebot4_beep.egg-info/requires.txt\n'}
+[1.900090] (turtlebot4_beep) StdoutLine: {'line': b'writing top-level names to turtlebot4_beep.egg-info/top_level.txt\n'}
+[1.902881] (turtlebot4_beep) StdoutLine: {'line': b"reading manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'\n"}
+[1.904108] (turtlebot4_beep) StdoutLine: {'line': b"writing manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'\n"}
+[1.906312] (turtlebot4_beep) StdoutLine: {'line': b'running build_ext\n'}
+[1.906596] (turtlebot4_beep) StdoutLine: {'line': b'Creating /home/soli/d_1_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4-beep.egg-link (link to .)\n'}
+[1.907806] (turtlebot4_beep) StdoutLine: {'line': b'Installing beep_node script to /home/soli/d_1_ws/install/turtlebot4_beep/lib/turtlebot4_beep\n'}
+[1.908125] (turtlebot4_beep) StdoutLine: {'line': b'\n'}
+[1.908427] (turtlebot4_beep) StdoutLine: {'line': b'Installed /home/soli/d_1_ws/build/turtlebot4_beep\n'}
+[1.908627] (turtlebot4_beep) StdoutLine: {'line': b'running symlink_data\n'}
+[1.917114] (-) TimerEvent: {}
+[1.942932] (turtlebot4_beep) CommandEnded: {'returncode': 0}
+[1.962307] (turtlebot4_beep) JobEnded: {'identifier': 'turtlebot4_beep', 'rc': 0}
+[1.963291] (-) EventReactorShutdown: {}
