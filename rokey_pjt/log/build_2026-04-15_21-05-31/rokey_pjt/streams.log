@@ -1,0 +1,41 @@
+[1.642s] Invoking command in '/home/rokey/rokey_pjt/src/rokey_pjt': PYTHONPATH=/home/rokey/rokey_pjt/build/rokey_pjt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rokey_pjt build --build-base /home/rokey/rokey_pjt/build/rokey_pjt/build install --record /home/rokey/rokey_pjt/build/rokey_pjt/install.log --single-version-externally-managed install_data
+[2.095s] running egg_info
+[2.096s] creating ../../build/rokey_pjt/rokey_pjt.egg-info
+[2.097s] writing ../../build/rokey_pjt/rokey_pjt.egg-info/PKG-INFO
+[2.097s] writing dependency_links to ../../build/rokey_pjt/rokey_pjt.egg-info/dependency_links.txt
+[2.098s] writing entry points to ../../build/rokey_pjt/rokey_pjt.egg-info/entry_points.txt
+[2.098s] writing requirements to ../../build/rokey_pjt/rokey_pjt.egg-info/requires.txt
+[2.098s] writing top-level names to ../../build/rokey_pjt/rokey_pjt.egg-info/top_level.txt
+[2.098s] writing manifest file '../../build/rokey_pjt/rokey_pjt.egg-info/SOURCES.txt'
+[2.102s] reading manifest file '../../build/rokey_pjt/rokey_pjt.egg-info/SOURCES.txt'
+[2.103s] writing manifest file '../../build/rokey_pjt/rokey_pjt.egg-info/SOURCES.txt'
+[2.104s] running build
+[2.104s] running build_py
+[2.104s] creating /home/rokey/rokey_pjt/build/rokey_pjt/build
+[2.104s] creating /home/rokey/rokey_pjt/build/rokey_pjt/build/lib
+[2.105s] creating /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+[2.105s] copying rokey_pjt/depth_checker_node.py -> /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+[2.105s] copying rokey_pjt/__init__.py -> /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+[2.105s] copying rokey_pjt/depth_checker_mouse_click.py -> /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+[2.105s] running install
+[2.106s] running install_lib
+[2.107s] creating /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+[2.107s] copying /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt/depth_checker_node.py -> /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+[2.108s] copying /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt/__init__.py -> /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+[2.108s] copying /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt/depth_checker_mouse_click.py -> /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+[2.109s] byte-compiling /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt/depth_checker_node.py to depth_checker_node.cpython-310.pyc
+[2.111s] byte-compiling /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt/__init__.py to __init__.cpython-310.pyc
+[2.111s] byte-compiling /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt/depth_checker_mouse_click.py to depth_checker_mouse_click.cpython-310.pyc
+[2.113s] running install_data
+[2.114s] creating /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index
+[2.114s] creating /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index/resource_index
+[2.114s] creating /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index/resource_index/packages
+[2.114s] copying resource/rokey_pjt -> /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index/resource_index/packages
+[2.115s] copying package.xml -> /home/rokey/rokey_pjt/install/rokey_pjt/share/rokey_pjt
+[2.115s] running install_egg_info
+[2.119s] Copying ../../build/rokey_pjt/rokey_pjt.egg-info to /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt-0.0.0-py3.10.egg-info
+[2.120s] running install_scripts
+[2.160s] Installing depth_checker script to /home/rokey/rokey_pjt/install/rokey_pjt/lib/rokey_pjt
+[2.161s] Installing depth_click script to /home/rokey/rokey_pjt/install/rokey_pjt/lib/rokey_pjt
+[2.161s] writing list of installed files to '/home/rokey/rokey_pjt/build/rokey_pjt/install.log'
+[2.194s] Invoked command in '/home/rokey/rokey_pjt/src/rokey_pjt' returned '0': PYTHONPATH=/home/rokey/rokey_pjt/build/rokey_pjt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rokey_pjt build --build-base /home/rokey/rokey_pjt/build/rokey_pjt/build install --record /home/rokey/rokey_pjt/build/rokey_pjt/install.log --single-version-externally-managed install_data
