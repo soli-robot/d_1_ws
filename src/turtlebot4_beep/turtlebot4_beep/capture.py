@@ -5,61 +5,66 @@ from cv_bridge import CvBridge
 import cv2
 import os
 
-class AutoImageSaver(Node):
+class ManualImageSaver(Node):
     def __init__(self):
-        super().__init__('auto_image_saver')
-        # 토픽 구독
+        super().__init__('manual_image_saver')
+        # 토픽 구독 (USB 웹캠)
         self.subscription = self.create_subscription(Image, '/image_raw', self.listener_callback, 10)
         self.bridge = CvBridge()
         
-        # 폴더 설정
-        self.folder_name = "webcamimage"
+        # 저장할 폴더 설정
+        self.folder_name = "webcamimage_mix"
         if not os.path.exists(self.folder_name):
             os.makedirs(self.folder_name)
             print(f"📂 폴더 생성됨: {self.folder_name}")
         
-        # 1번부터 시작 (파일 이름용)
+        # 파일 번호 초기화 (1번부터 시작)
         self.img_count = 1
         self.current_frame = None
-
-        # --- 핵심: 2초마다 실행되는 타이머 생성 ---
-        # 2.0초마다 self.timer_callback 함수를 실행합니다.
-        self.timer = self.create_timer(2.0, self.timer_callback)
         
-        print("🚀 자동 저장 시작: 2초 간격으로 이미지를 저장합니다.")
-        print("⌨️ 종료하려면 터미널에서 Ctrl+C 를 누르세요.")
+        print("🚀 수동 캡처 모드가 준비되었습니다.")
+        print("⌨️ 영상 창을 클릭한 후 's' 키를 누르면 사진이 저장됩니다.")
+        print("⌨️ 종료하려면 'q' 키를 누르세요.")
 
     def listener_callback(self, data):
-        # 실시간 프레임을 계속 업데이트
+        # ROS 이미지를 OpenCV 형식으로 변환
         self.current_frame = self.bridge.imgmsg_to_cv2(data, 'bgr8')
         
-        # 실시간 화면 확인용 (필요 없으면 주석 처리 가능)
-        cv2.imshow("Webcam Auto Capture", self.current_frame)
-        cv2.waitKey(1)
+        # 실시간 화면 표시
+        cv2.imshow("Webcam Capture View", self.current_frame)
+        
+        # 키 입력 대기 (1ms)
+        key = cv2.waitKey(1) & 0xFF
+        
+        # 's' 키를 눌렀을 때 저장 로직
+        if key == ord('s'):
+            if self.current_frame is not None:
+                # 파일 이름 결정: webcamimage1.jpg, webcamimage2.jpg ...
+                file_name = f"webcamimage_mix{self.img_count}.jpg"
+                file_path = os.path.join(self.folder_name, file_name)
+                
+                # 이미지 저장
+                cv2.imwrite(file_path, self.current_frame)
+                
+                print(f"📸 [저장 완료] {file_path}")
+                
+                # 다음 저장을 위해 번호 1 증가
+                self.img_count += 1
+            else:
+                print("⚠️ 저장할 영상 프레임이 없습니다.")
 
-    def timer_callback(self):
-        # 현재 카메라 프레임이 있는지 확인
-        if self.current_frame is not None:
-            file_name = f"webcamimage{self.img_count}.jpg"
-            file_path = os.path.join(self.folder_name, file_name)
-            
-            # 이미지 저장
-            cv2.imwrite(file_path, self.current_frame)
-            
-            print(f"📸 [자동저장] {file_name}")
-            
-            # 번호 증가
-            self.img_count += 1
-        else:
-            print("⚠️ 아직 카메라 영상이 들어오지 않고 있습니다.")
+        # 'q' 키를 누르면 종료
+        elif key == ord('q'):
+            print("👋 프로그램을 종료합니다.")
+            rclpy.shutdown()
 
 def main(args=None):
     rclpy.init(args=args)
-    node = AutoImageSaver()
+    node = ManualImageSaver()
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        print("\n👋 사용자에 의해 중단되었습니다.")
+        pass
     finally:
         cv2.destroyAllWindows()
         node.destroy_node()

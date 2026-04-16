@@ -1,3 +1,6 @@
 .vscode/
 
 yolov8*.pt
+
+image
+my_data
