@@ -13,7 +13,7 @@ class ManualImageSaver(Node):
         self.bridge = CvBridge()
         
         # 저장할 폴더 설정
-        self.folder_name = "webcamimage_mix"
+        self.folder_name = "webcamimage_mix" # 저장할 폴더 이름 
         if not os.path.exists(self.folder_name):
             os.makedirs(self.folder_name)
             print(f"📂 폴더 생성됨: {self.folder_name}")
@@ -40,7 +40,7 @@ class ManualImageSaver(Node):
         if key == ord('s'):
             if self.current_frame is not None:
                 # 파일 이름 결정: webcamimage1.jpg, webcamimage2.jpg ...
-                file_name = f"webcamimage_mix{self.img_count}.jpg"
+                file_name = f"webcamimage_mix{self.img_count}.jpg"  # 저장할 이미지 이름
                 file_path = os.path.join(self.folder_name, file_name)
                 
                 # 이미지 저장
