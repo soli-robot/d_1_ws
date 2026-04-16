@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/rokey_pjt/rokey_pjt.egg-info
+writing ../../build/rokey_pjt/rokey_pjt.egg-info/PKG-INFO
+writing dependency_links to ../../build/rokey_pjt/rokey_pjt.egg-info/dependency_links.txt
+writing entry points to ../../build/rokey_pjt/rokey_pjt.egg-info/entry_points.txt
+writing requirements to ../../build/rokey_pjt/rokey_pjt.egg-info/requires.txt
+writing top-level names to ../../build/rokey_pjt/rokey_pjt.egg-info/top_level.txt
+writing manifest file '../../build/rokey_pjt/rokey_pjt.egg-info/SOURCES.txt'
+reading manifest file '../../build/rokey_pjt/rokey_pjt.egg-info/SOURCES.txt'
+writing manifest file '../../build/rokey_pjt/rokey_pjt.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rokey/rokey_pjt/build/rokey_pjt/build
+creating /home/rokey/rokey_pjt/build/rokey_pjt/build/lib
+creating /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+copying rokey_pjt/depth_checker_node.py -> /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+copying rokey_pjt/__init__.py -> /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+copying rokey_pjt/depth_checker_mouse_click.py -> /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt
+running install
+running install_lib
+creating /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+copying /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt/depth_checker_node.py -> /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+copying /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt/__init__.py -> /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+copying /home/rokey/rokey_pjt/build/rokey_pjt/build/lib/rokey_pjt/depth_checker_mouse_click.py -> /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt
+byte-compiling /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt/depth_checker_node.py to depth_checker_node.cpython-310.pyc
+byte-compiling /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt/depth_checker_mouse_click.py to depth_checker_mouse_click.cpython-310.pyc
+running install_data
+creating /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index
+creating /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index/resource_index
+creating /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index/resource_index/packages
+copying resource/rokey_pjt -> /home/rokey/rokey_pjt/install/rokey_pjt/share/ament_index/resource_index/packages
+copying package.xml -> /home/rokey/rokey_pjt/install/rokey_pjt/share/rokey_pjt
+running install_egg_info
+Copying ../../build/rokey_pjt/rokey_pjt.egg-info to /home/rokey/rokey_pjt/install/rokey_pjt/lib/python3.10/site-packages/rokey_pjt-0.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_checker script to /home/rokey/rokey_pjt/install/rokey_pjt/lib/rokey_pjt
+Installing depth_click script to /home/rokey/rokey_pjt/install/rokey_pjt/lib/rokey_pjt
+writing list of installed files to '/home/rokey/rokey_pjt/build/rokey_pjt/install.log'
